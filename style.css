@@ -1,0 +1,39 @@
+html,body {
+    /*background-image: url("https://i.pinimg.com/236x/f8/49/cd/f849cd3f5ea9f8cd50a642a9e7db89ef.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;*/
+    margin: 0px;
+    height: 100%;
+    padding: 0px;
+}
+.container {
+    //background-image: url("f849cd3f5ea9f8cd50a642a9e7db89ef (2).jpg");
+    //background-repeat: repeat;
+    opacity: 0.5;
+    position: relative;
+}
+.image {
+    display: block;
+    position: absolute;
+    opacity: 0.7;
+    z-index: -1;
+    height: 50%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+    /*min-height:100%;
+    min-width:100%;
+    height:auto;
+    width:auto;
+    position:absolute;
+    top:-100%; bottom:-100%;
+    left:-100%; right:-100%;
+    margin:auto;*/
+}
+.content {
+    padding: 20px;
+    z-index: 1;
+}
+    
